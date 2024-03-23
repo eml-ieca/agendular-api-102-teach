@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon api/index.js",
     "migrations:generate": "sequelize-cli migration:generate --name",
     "migrations:seeder": "sequelize-cli seed:generate --name",
     "migrations:seed-all": "sequelize-cli db:seed:all",
